@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jimmy K Beverages</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Jimmy K Beverages</div>
+    <nav id="navbar">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Refreshing Every Moment</h1>
+    <a href="#products" class="btn">Explore Our Products</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Jimmy K Beverages is a proudly local-Zambian brand producing high-quality freezits and sachet water. Our mission is to refresh lives and empower communities.
+    </p>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Products</h2>
+    <div class="product-grid">
+      <div class="product-card"><img src="freezits.jpg" alt="Freezits"><p>Freezits</p></div>
+      <div class="product-card orange"><p>Strawberry</p></div>
+      <div class="product-card yellow"><p>Orange</p></div>
+      <div class="product-card pink"><p>Orange</p></div>
+      <div class="product-card teal"><p>Bubblegum</p></div>
+      <div class="product-card"><img src="sachet.jpg" alt="Sachet Water"><p>Jimmy K Sachet Water</p></div>
+    </div>
+  </section>
+
+<section id="video" class="video-section">
+  <h2>See Jimmy K in Action!</h2>
+  <video id="promoVideo" width="100%" muted playsinline controls>
+    <source src="jk vid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+
+  <section id="community" class="community">
+    <h2>Empowering Our Community</h2>
+    <p>
+      We support small businesses by giving free starter packs to help them sell our products and grow their income.
+    </p>
+    <div class="community-photos">
+      <img src="Image_fx (6).jpg" alt="Seller 1">
+      <img src="seller2.jpg" alt="Seller 2">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="contact-info">
+      <p><strong>Phone:</strong> 0975770405</p>
+      <div class="map"><!-- Optional: Embed Google Map Here --></div>
+    </div>
+  </section>
+<footer>
+  <p>&copy; 2025 Jimmy K Beverages | Developed by <a href="#">Ukwenda Solutions</a></p>
+  <div class="social-media">
+    <a href="https://wa.me/0975770405" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="https://instagram.com/jimmykbeverages" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://facebook.com/jimmykbeverages" target="_blank" rel="noopener">Facebook</a>
+    <a href="https://twitter.com/jimmykbeverages" target="_blank" rel="noopener">Twitter</a>
+  </div>
+</footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
